@@ -2,188 +2,275 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Assignment-1</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
-    <link href="/assets/css/style.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Assignment-1</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+  <link href="/assets/css/style.css" rel="stylesheet">
 
 
 </head>
 
 <body>
 
-      <!---START Logo Navbar-->
-      <div class="container-fluid fixed-top" id="navbar">
+  <!---START Logo Navbar-->
+  <div class="container-fluid sticky-top" id="navbar">
 
-        <header
-            class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between">
 
-            <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
-                <img src="assets/images/CB logo.png" alt="Logo of The Cobalt Building" class="rounded bi me-2"
-                    width="100" height="80" aria-label="Bootstrap"></img>
-            </a>
+      <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+        <img src="assets/images/images_home/CB new logo.jpg" alt="Logo of The Cobalt Building" class="rounded bi me-2" width="100"
+          height="80" aria-label="CB Logo"></img>
+      </a>
 
-            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-                
-                <li><a href="index.html" target="_blank" class="nav-link px-4">HOME</a></li>
-                <li><a href="ourbuilding.html" target="_blank" class="nav-link px-4">OUR BUILDING</a></li>
-                <li><a href="location.html" target="_blank" class="nav-link px-4">LOCATION</a></li>
-                <li><a href="history.html" target="_blank" class="active nav-link px-4">HISTORY</a></li>
-            </ul>
+      <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+        <li><a href="index.html" class="nav-link px-4">HOME</a></li>
+        <li><a href="ourbuilding.html" class="nav-link px-4">THE COBALT BUILDING</a></li>
+        <li><a href="location.html" class="nav-link px-4">LOCATION</a></li>
+        <li><a href="history.html" class="active nav-link px-4">HISTORY</a></li>
+      </ul>
 
-            <div class="col-md-3 text-end">
-                <button type="button" class="btn btn-primary">Leaseholder Portal</button>
+      <div class="col-md-3 text-end">
+        <button type="button" class="btn btn-primary">Leaseholder Portal</button>
+      </div>
+
+    </header>
+  </div>
+  <!---END Logo Navbar-->
+  <div class="row border-bottom border-5"></div>
+  
+  <!---START History-->
+  <div class="container-fluid py-4 py-xl-5 pageheading3">
+    <div class="row mb-3">
+        <div class="col-md-8 col-xl-6 text-center mx-auto">
+            <h2>Historic Milestones</h2>
+            <p class="w-lg-50">The evolution of Bridgewater Square from 1 AD to date</p>
+        </div>
+    </div>
+
+  <div class="container-fluid py-3 mb-4">
+    <!-- timeline item 1 image LEFT -->
+    <div class="row no-gutters">
+      <div class="col-sm">
+        <div class="col-sm py-2">
+          <div class="card">
+            <div class="card-body">
+              <div class="float-left text-muted small">1 - 500 AD
+              </div> 
+              <img
+                src="assets/images/images_history/100 Roman London by Walter Thornbury from Old and New London, 1873..jpg"
+                class="img-fluid" alt="100 AD Roman London Map" class="rounded bi me-2" width="500" height="300">
             </div>
-
-        </header>
-    </div>
-
-    <hr class="navbar">
-
-    <!---END Logo Navbar-->
-
-    <!---START History-->
-    <h2 class="text-center py-3">Historic Milestones</h2>
-
-<div class="container py-2 mt-4 mb-4">
-  <!-- timeline item 1 -->
-  <div class="row no-gutters">
-    <div class="col-sm"> <!--spacer--> </div>
-    <!-- timeline item 1 center dot -->
-    <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
-      <div class="row h-50">
-        <div class="col">&nbsp;</div>
-        <div class="col">&nbsp;</div>
+          </div>
+        </div>
       </div>
-      <h5 class="m-2">
+      <!-- timeline item 1 center dot -->
+      <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <h5 class="m-2">
+          <span class="badge badge-pill bg-light border">&nbsp;</span>
+        </h5>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      <!-- timeline item 1 text RIGHT -->
+      <div class="col-sm py-2">
+        <div class="card">
+          <div class="card-body">
+            <div class="float-right text-muted small">1 - 500 AD</div>
+            <h4 class="card-title">Roman London</h4>
+            <p class="card-text">Founding of Londinium (the capital of Roman Britain) at a strategic crossing point over
+              the River Thames. This allowed the city to become a key road nexus and major port.</p>
+            <p class="card-text">To defend the city, Cripplegate Fort in the north-west and the London Wall and surrounding the city nd made of stone were built.</p>
+            <p class="card-text">Londinium rose to become a major trading center until the Roman army left in 410AD and the city then fell into swift ruin.</p>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/row-->
+
+    <!-- timeline item 2 text LEFT -->
+    <div class="row no-gutters">
+      <div class="col-sm py-2">
+        <div class="card">
+          <div class="card-body">
+            <div class="float-right text-muted small">500 - 1300 AD
+            </div>
+            <h4 class="card-title">Medieval revival in the Anglo-Saxon period</h4>
+            <p class="card-text">From around 500 AD, a new Anglo-Saxon settlement Lundenwic developed slightly to the west of old Londonium.</p>
+            <p class="card-text">Due to the frequent Viking attacks, Alfred the Great, moved Lundenwic into the safety of the London Wall in 860AD, the event recorded in the Anglo-Saxon Chronicle as the "refounding" of London ('Lundenburh'). Urban activity increased significantly and by 1100, London was the largest town in England.</p>
+            <p class="card-text">The city's watch-towers were re-repaired or newly built by Gilbert de Clare, Earl of Gloucester, during the Second Barons' War.</p>
+            <p class="card-text">However, in 1267 when the War came to an end, the victorious Henry III had all <em>'their burkhennings, watch-towers, and bulwarks.., plucked down..so that nowt of them might be seen to remain.'</em></p>
+              <p class="card-text">Whilst the extensively repaired London Wall provided security, it constrained London's growth and accessibility.  This led to the development of extra-mural parts (i.e. outside the London Wall) in the north-west part with the creation of the area which would become known as the Barbican and included in the extended boundary of the Cripplegate Ward of the City of London.</p>
+          </div>
+        </div>
+      </div>
+      <!-- timeline item 2 center dot -->
+      <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <h5 class="m-2">
+          <span class="badge badge-pill bg-light border">&nbsp;</span>
+        </h5>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      <!-- timeline item 2 image RIGHT -->
+      <div class="col-sm">
+        <div class="col-sm py-2">
+          <div class="card">
+            <div class="card-body">
+              <div class="float-right text-muted small">500 - 1100 AD
+              </div>
+              <h5><em><strong>Present day remnants of London Wall with Barbican Estate towers in the background</strong></em></h5>
+              <img
+                src="assets/images/images_history/Present Day - remnants of London Wall.JPG"
+                class="img-fluid" alt="100 AD Roman London Map" class="rounded bi me-2" width="500" height="300">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/row-->
+
+    <!-- timeline item 3 image LEFT-->
+    <div class="row no-gutters">
+      <div class="col-sm">
+        <div class="col-sm py-2">
+          <div class="card">
+            <div class="card-body">
+              <div class="float-left text-muted small">1300 - 1611 AD
+              </div>
+              <h5><em><strong>Wyngaerde's Panorama of London in 1543</strong></em></strong></h5>
+              <img
+              src="assets/images/images_history/Panorama_of_London_in_1543_Wyngaerde_Section_2.jpg"
+              class="img-fluid" alt="100 AD Roman London Map" class="rounded bi me-2" width="500" height="300">
+              <h5><em><strong>Zoom into location 76 showing the Barbican in Wyngaerde's Panorama of London in 1543</strong></em></strong></h5>
+              <img src="assets/images/images_history/1543 Wyngaerde - Barbican.jpg"
+              class="img-fluid" alt="100 AD Roman London Map" class="rounded bi me-2" width="500" height="300">
+          </div>
+        </div>
+      </div>
+      </div>
+      
+      <!-- timeline item 3 center dot -->
+      <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <h5 class="m-2">
         <span class="badge badge-pill bg-light border">&nbsp;</span>
-      </h5>
-      <div class="row h-50">
-        <div class="col border-right">&nbsp;</div>
-        <div class="col">&nbsp;</div>
+        </h5>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
       </div>
-    </div>
-    <!-- timeline item 1 event content -->
+      
+    <!-- timeline item 3 text RIGHT -->
     <div class="col-sm py-2">
       <div class="card">
         <div class="card-body">
-          <div class="float-right text-muted small">0 - 500 AD</div>
-          <h4 class="card-title">Roman London</h4>
-          <p class="card-text">Founding of Londinium (the capital of Roman Britain) at a strategic crossing point over the River Thames.  This allowed the city to become a key road nexus and major port.</p>
-          <p class="card-text">To defend the city, Cripplegate Fort in the north-west and the stone London Wall surrounding the city were built.</p>
-          <p class="card-text">Londinium rose to become a major trading center until the Roman army left in 410AD and the city went into ruin.</p>
+          <div class="float-right text-muted small">1300 - 1611 AD</div>
+          <h4 class="card-title">The origin of Barbican / La Bas Court / Willoughby House </h4>
+          <p class="card-text">The Barbican area began to be referenced from the late 13th century – as a street name and a house name on that street.  The origin of the name is likely to be French and due to the presence of a watch-tower with a walled enclosure here.   While a watch-tower (called ‘burkhenning’ in Anglo-Saxon) here may have been pulled down in 1267 after Henry III won the Second Baron’s War, the remnant walled enclosure became a house called Le/La Bas Court. It fell within the extended boundary of Cripplegate Ward in the City of London.
           </p>
+          <p class="card-text">Upon his death, Robert de Ufford left le Bas Court to his son and heir William (the 2nd Earl of Suffolk).  William unfortunately died suddenly in 1382 without any issue.  In William's will, Bas Court is described as <em>'A tenement with a garden and 13 shops with solars built thereon'</em>.  William also mentions further his <em>‘10 shops with gardens annexed on the west side of a street called 'Goldynglane', together with 'a garden containing 2 a. land adjacent to the said gardens on the west side thereof'</em>.  William left this and his lands in Suffolk to his sister Cecily.</p>
+          <p class="card-text">Cecily had married John, 3rd Lord Willoughby de Eresby (c1328-72).  Since Cecily’ death in c.1372 preceded William’s, Bas Court and the surrounding Barbican properties passed onto her son Robert, the 4th Lord Willoughby de Eresby (c1349-96).   They continued to be held in the Willoughby de Eresby family until 1623.  The Willoughby de Eresby peerage continues to this day.</p>
+          <p class="card-text">The  daughter of the 10th Lord Willoughby of Eresby (1482-1526), Catherine (1519-80) inherited Bas Court.  In a lease dated 21 October 1554, the house and their surrounding land is referred to as <em>'their Manor place called the Barbicane', all its gardens, buildings and appurtenances, all the tenements and houses belonging to it at Golding Lane…’.</em>  Catherine and her second husband Robert Bertie (1517-82) made considerable upgrades to the modest Bas Court in the 1560s resulting in a contemporary late medieval hall house with a courtyard containing two service wings, with a large garden to the north (the current Bridgewater Square) and properties along either side of a gatehouse.  These properties fronting on to Barbican Street were important both as a valuable source of income and to ensure privacy.  </p>
+          <p class="card-text">Catherine’s son Peregrine (1555-1601) inherited Bas Court in 1582 together with the Willoughby barony.  He also made changes to the house and referred to it as <em>“my great mansion house called Willoughby House in the Barbican”</em>. Bas Court had become Willoughby House.</p>
+          <p class="card-text">In 1609, his son and successor Robert Bertie (1582-1642, the 1st  Earl of Lindsey and 14th Baron of Willoughby de Eresby) mortgaged all the Barbican properies, except for the Still house (used to distil alcohol for medicinal purposes) to his brother-in-law Sir Charles Montague for £1200. Subsequently, around 1611, he sold Willoughby House to Thomas Egerton.</p>
         </div>
       </div>
     </div>
   </div>
-  <!--/row-->
-  <!-- timeline item 2 -->
-  <div class="row no-gutters">
-    <div class="col-sm py-2">
-      <div class="card">
-        <div class="card-body">
-          <div class="float-right text-muted small">500 - 1100 AD
-          </div>
-          <h4 class="card-title">Revival in the Anglo-Saxon period</h4>
-          <p class="card-text">From around 500 AD a new Anglo-Saxon settlement Lundenwic developed in the same area slightly to the west of Londonium.</p>
-          <p class="card-text">Due to the frequent Viking attacks, Alfred the Great, moved Lundenwic into the safety of the London Wall in 860AD.  The Anglo-Saxon Chronicle recorded this as the "refounding" of London (now called 'Lundenburh').  London Wall was extensively repaired.</p>
-          <p class="card-text">Urban activity increased significanly and by 1100 AD London was the largest town in England. </p>
-        </div> 
-      </div>
-    </div>
-    <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
-      <div class="row h-50">
-        <div class="col border-right">&nbsp;</div>
-        <div class="col">&nbsp;</div>
-      </div>
-      <h5 class="m-2">
-        <span class="badge badge-pill bg-light border">&nbsp;</span>
-      </h5>
-      <div class="row h-50">
-        <div class="col border-right">&nbsp;</div>
-        <div class="col">&nbsp;</div>
-      </div>
-    </div>
-    <div class="col-sm"> <!--spacer--> </div>
-  </div>
-  <!--/row-->
-  <!-- timeline item 3 -->
-  <div class="row no-gutters">
-    <div class="col-sm"> <!--spacer--> </div>
-    <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
-      <div class="row h-50">
-        <div class="col border-right">&nbsp;</div>
-        <div class="col">&nbsp;</div>
-      </div>
-      <h5 class="m-2">
-        <span class="badge badge-pill bg-light border">&nbsp;</span>
-      </h5>
-      <div class="row h-50">
-        <div class="col border-right">&nbsp;</div>
-        <div class="col">&nbsp;</div>
-      </div>
-    </div>
-    <div class="col-sm py-2">
-      <div class="card">
-        <div class="card-body">
-          <div class="float-right text-muted small">1100 - 1300 AD</div>
-          <h4 class="card-title">Medieval London</h4>
-          <p class="card-text">Whilst London Wall provided security, it constrained London's growth and accesibility.</p>
-            <p class="card-text" >This led to the development of extra-mural parts (ie outside the London Wall) in the north-west part.</p>
-            <p class="card-text">The nearby roads of Fore Street, Whitecross Street and Chiswell Street were in place by 1210, 1226 amd early 13th century respectively.</p>
-            <p class="card-text">The City's watch-towers were re-repaired or newly built by Gilbert de Clare, Earl of Gloucester, during the Second Barons' War.</p>
-          <p class="card-text">In 1267 when the war came to an end, the victorious Henry III had all 'their burkhennings, watch-towers, and bulwarks.., plucked down..so that nowt of them might be seen to remain.'</p>
-          
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--/row-->
-  <!-- timeline item 4 -->
-  <div class="row no-gutters">
-    <div class="col-sm py-2">
-      <div class="card">
-        <div class="card-body">
-          <div class="float-right text-muted small">1300-1500 AD</div>
-          <h4 class="card-title">Barbican & Le Bas Court</h4>
-          <p class="card-text">The Barbican street name which has French origins first began to appear from the late 13th century - perhaps in reference to a pulled down watch-tower on this site but whose walled enclosure remained and became known as Le/La Bas Court.</p>
-          <p class="card-text">In February 1331, Edward III granted to his trusted adviser Robert de Ufford (1298-1369) 'during pleasure, of the gardens and other appurtances, called 'la Bas Court, by Cryplegate, London' (cat Pal R 1330-4, 73).  Edward III had confisticated these from John Mautravers (c.1290—
-           1364), considered to have become Lord Maltravers by 1330, who was indicted in his absence for plotting the death of the Earl of Kent. His lands, including the Barbican, were confiscated and he fled abroad in December 1330 (Shenton 2004).</p>
-           <p class="card-text">Upon his death, Robert de Ufford left le Bas Court to his son William.  However, William died suddenly in 1382 without any issue and his sister Cicely inherited Bas Coourt.</p>
-           <p class="card-text">Cicely (died c.1372) married John, 3rd Lord Willoughby de Eresby (c1328-72).   In William's will, Bas Court is described as 'A tenement with a garden and 13 shops with solars built thereon' and in addition there were in the ‘suburbs of London. 10 shops with gardens annexed on the west side of
-            a street called 'Goldynglane', together with <strong>'a garden containing 2 a. land adjacent to the said gardens on the west side thereof'</strong> (Dawes et al 1970, 239—56). This seems to be the first demarcation of Bridgewater Square.</p>
-            <p class="card-text">Bas Court and the surrounding properties continued in the Willoughby de Eresby family.  In 1516 William (1482—1526), 10th Lord Willoughby de Eresby, married as his second wife Maria
-              de Salinas (d 1539), Spanish noblewoman and courtier, and lady in waiting to Katherine of Aragon (consort of Henry VIII 1509—33). They had a daughter, Katherine Willoughby de Eresby (1519—80), and it is
-              from Katherine's time that most information about the Barbican is found.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
-      <div class="row h-50">
-        <div class="col border-right">&nbsp;</div>
-        <div class="col">&nbsp;</div>
-      </div>
-      <h5 class="m-2">
-        <span class="badge badge-pill bg-light border">&nbsp;</span>
-      </h5>
-      <div class="row h-50">
-        <div class="col">&nbsp;</div>
-        <div class="col">&nbsp;</div>
-      </div>
-    </div>
-    <div class="col-sm"> <!--spacer--> </div>
-  </div>
-  <!--/row-->
+  
+    <!--/row-->
 
-  <!-- timeline item 5 -->
+    <!-- timeline item 4 text LEFT-->
   <div class="row no-gutters">
-    <div class="col-sm"> <!--spacer--> </div>
+    <div class="col-sm py-2">
+      <div class="card">
+        <div class="card-body">
+          <div class="float-right text-muted small">1611 - 1688 AD</div>
+          <h4 class="card-title">Barbican - Bridg(e)water House</h4>
+          <p class="card-text">Willoughby House was sold to Thomas Egerton (1540-1617) around 1611.  Thomas Egerton was the 1st Viscount Brackley and 1st Baron Ellesmere and was appointed Lord High Chancellor of England from 1596-1617.   Viscount Street and Brackley Street (on the back facade of the Cobalt Building today) were named after him.</p>
+          <p class="card-text">His son and successor, John Egerton (1579—1649), became the 1st Earl of Bridg(e)water in 1617, and at that stage seems to have renamed Willoughby House as ‘Bridgwater House’. He married Lady Frances Stanley in c.1601 and when in London they lived at St Martin in the Fields and at Bridgwater House.</p>
+          <p class="card-text">There is a reference in the House of Lords Journal to the 2nd Earl of Bridg(e)water, also John Egerton (1623—86), being removed to his house in the Barbican on 15 June 1663 due to his <em>‘great Grief and Sorrow’</em> on the sudden death the previous day of his wife, Elizabeth (née Cavendish, 1626—63), while giving birth to their tenth child.  John died <em>‘at his house in Barbican’</em> in October 1686.</p>
+          <p class="card-text">John’s son, yet another John Egerton (1646-1701) and the 3rd Earl of Bridg(e)water, was married by the Archbishop of Canterbury <em>‘in ye Chapel at Bridgwater House in ye Barbican’</em> on 17 November 1664 to Lady Elizabeth Cranfield (1647/8-70).  After she died, he married Jane Paulet/Powlett (1655-1716) in 1673.  They had seven sons and two daughters.  Tragically two of the sons, Charles (Viscount Brackley, aged 11) and Thomas (aged 7), were killed, along with their tutor in the fire that destroyed Bridgwater House on 12 April 1687.  The children were buried on 14 April 1687 at Little Gaddesden, Hertfordshire, England.</p>
+          <p class="card-text">During their period of ownership, it is not known what changes the earls of Bridgwater made to the house.  However, the Hearth Tax of 1666 lists the 3rd Earl as having 36 hearths (far exceeding those recorded for other nearby properties).</p>
+          <p class="card-text">Further, the Barbican gardens had become quite famous.  John Evelyn in his 1661 treatise on the air pollution of London extolled the virtues of the gardens of London, mentioning in particular <em>‘My Lord Bridgewater’s and some others about the Barbican, which were observed to bear such plentiful and infinite quantities of fruit’</em>.  He also wrote in his famous Diary he wrote <em>“that this neighbourhood was celebrated for orchards productive of such quantities of fruits as never were produced before nor after,..."</em>.</p>
+        <p class="card-text">The burnt down Bridgwater House and gardens were sold to Sir Christopher Wren and his associates for redevelopment in 1688.</p>
+        </div>
+      </div>
+    </div>
+    <!-- timeline item 4 center dot -->
+    <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+      <div class="row h-50">
+        <div class="col border-right">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+      <h5 class="m-2">
+        <span class="badge badge-pill bg-light border">&nbsp;</span>
+      </h5>
+      <div class="row h-50">
+        <div class="col">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+    </div>
+    <!-- timeline item 4 image RIGHT -->
+    <div class="col-sm">
+      <div class="col-sm py-2">
+        <div class="card">
+          <div class="card-body">
+            <div class="float-right text-muted small">1611 - 1688 AD
+            </div>
+            <h5><em><strong>Ogilby & Morgan Map of London of 1676 showing Bridgewater Square</strong><em></h5>
+            <img
+                src="assets/images/images_history/O&M 1676.jpg"
+                class="img-fluid" alt="100 AD Roman London Map" class="rounded bi me-2" width="500" height="300">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!--/row-->
+
+   <!-- timeline item 5 image LEFT-->
+  <div class="row no-gutters">
+    <div class="col-sm">
+      <div class="col-sm py-2">
+        <div class="card">
+          <div class="card-body">
+            <div class="float-left text-muted small">1688 - 1900 AD
+            </div>
+            <div>
+              <img
+            src="assets/images/images_history/1712 Sir Christopher Wren indenture.png"
+            class="img-fluid" alt="100 AD Roman London Map" class="rounded bi me-2" width="500" height="300">
+            <img
+            src="assets/images/images_history/1800 Obelisk in Bridgewater Square Garden.JPG"
+            class="img-fluid" alt="100 AD Roman London Map" class="rounded bi me-2" width="500" height="300">
+            </div>
+        </div>
+      </div>
+    </div>
+    </div>
+<!-- timeline item 5 center dot -->
     <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
       <div class="row h-50">
         <div class="col border-right">&nbsp;</div>
@@ -197,57 +284,102 @@
         <div class="col">&nbsp;</div>
       </div>
     </div>
+<!-- timeline item 5 text RIGHT -->
     <div class="col-sm py-2">
       <div class="card">
         <div class="card-body">
-          <div class="float-right text-muted small">1500 - XXX AD</div>
-          <h4 class="card-title">Katherine de Willoughby</h4>
-          <p class="card-text"> When William Willoughby died in 1526, as his only child, Katherine inherited his barony, becoming a baroness in her own right.  Katherine was married off as the fourth wife of
-            Charles Brandon (1484—1545), 1st Duke of Suffolk, in October 1533 when she was only fourteen.  Katherine had two sons with
-            Brandon, Henry (b 1535) and Charles (b 1537/8). Henry was born in the Barbican, where Katherine's mother was still living,
-            when Katherine was still only fifteen (Goff 1930, 37). Both Henry and Charles were to die of sweating sickness in 1551, ending
-            Brandon's direct line (Gunn 2015).</p>
-          <p class="card-text">As Brandon himself had died in 1545, Katherine married again in 1552, this time of her own choosing to her gentleman usher, Richard
-              Bertie (1517—82), with whom she also had two children, Susan (b 1554) and Peregrine (1555—1601).</p> 
-          <p class="card-text">As staunch Protestants, Katherine and Richard Bertie were obliged to flee to the Continent in 1555 during the Marian Roman
-            Catholic revival (1553—8). There is an account by Richard Bertie, who had carefully prepared for their flight abroad, of Katherine’s escape
-            from their house at the Barbican on 1 January 1555, where Queen Mary had installed the royal official Edmond Atkinson (Somerset
-            Herald 1550—70) to watch over her.</p>
-          <p class="card-text">There is a lease dated to 21 October 1554 'leasing 'their Manor place called the Barbicane', all its gardens, buildings and
-              appurtenances, all the tenements and houses belonging to it at Golding Lane and, in the parish of St Botolph without Aldersgate,
-              at Darnoldes on Charterhouse Lane, to Edmond Atkinson, Somerset Herald, for a period of 21 years at £30, £8 for the Barbican itself (2-ANC 1/43/5).1</p>
-          <p class="card-text">In 1559, when Katherine and her ....</p>
+          <div class="float-right text-muted small">1688 - 1900 AD</div>
+          <h4 class="card-title">Bridgewater Square</h4>
+          <p class="card-text">Sir Christopher Wren and George Jackson of Chipping Warden purchased the Bridgewater House site from the 3rd Earl of Bridgwater for £4,400 in 1688.  Together with his associates Nicholas Hawksmoor, W Emmet, E Strong Senior and H Doogood, Sir Christopher Wren demolished and transformed the site of Bridgewater House into a central garden square - Bridgewater Square, and built housing along the four edges of the Square overlooking the garden.  The build was in line with the Rebuilding Act of 1667 wich came into force after the Great Fire of London of 1666 and influenced how streets and buildings were laid out, including specifying the replacement of timber by brick, regulating street widths and designating four sizes of houses.</p>
+          <p class="card-text">A parchment held at the London Metropolitan Archives shows the rentals of each house around the edge of Bridgewater Square.  The parchment was prepared for the purposes of the sale of these properties by Sir Christopher Wren in 1712. </p>
+          <p class="card-text">John Strype wrote A Survey of the Cities of London and Westminster in 1720 where he describes Bridgwater Square as <em>‘a very handsome open Place, with very good Buildings, well inhabited. The middle is neatly inclosed with Palisado Pales, and set round with Trees; which renders the Place very delightful. … And where this Square is, stood the House of the Earl of Bridgwater’</em>.</p>
+          <p class="card-text">Hughson, writing in 1806 describes the square as <em>“Small but neat, surrounded with plain, but handsome and convenient houses; the centre of the Square is a grass plat, shaded with trees, and encompassed by iron rails.”</em></p>
+          <p class="card-text">During the 18th and 19th centuries, the houses on the four sides of the Square were occupied by various tradespeople such as several silversmiths, a jewel case maker, working jeweller, clock and watch maker, willow square manufacturer, a hatter, and a furrier etc who had their workshops at the bottom and lodgings on the top.  This commercialisation led to Miller, writing in 1867, <em>"the once charming grounds annexed to Bridge-water House are now covered with blocks of houses let out in tenements, and although still bearing high-sounding names, present a dingy and ill-conditioned appearance."</em></p>
+          <p class="card-text">More significant changes to the Square started in the mid-1850s.</p>
+          <p class="card-text">Cripplegate Ward Boys School was built on the northern side of the Square.  It opened in 1870 and closed in 1904.  The boys from the school used the central Square as a drill ground. The school was almost unique for an elementary school in opening a technical department for teaching woodwork in 1892. When the school closed only seven of its 300 pupils lived in Cripplegate.</p>
+          <p class="card-text">On the southern side of the Square, Tranter’s Temperance Hotel was established in 1859, being <em>“enlarged five times”</em> afterwards to numbers 6 to 9. </p>
           <p class="card-text"></p>
-          <p class="card-text"></p>
-          
-          </div>
         </div>
       </div>
     </div>
   </div>
-<!--/row-->
-</div>
+  </div>
+  
+    <!--/row-->
+
+    <!-- timeline item 6 text LEFT -->
+    <div class="row no-gutters">
+      <div class="col-sm py-2">
+        <div class="card">
+          <div class="card-body">
+            <div class="float-right text-muted small">1900 AD and onwards
+            </div>
+            <h4 class="card-title">Further development of Bridgewater Square and the arrival of the Cobalt Building</h4>
+            <p class="card-text">The roads around Bridgewater Square were laid in tarmac in 1903. </p>
+            <p class="card-text">From 1904, Mr Tranter – the owner of the Temperance Hotel located on the southern side of the Square - rented the central Square as it was no longer being used as a dril lground for the Boys School.  His hotel guests used it as a recreation ground, there being “an especially fine lime tree”. The hotel closed shortly after the outbreak of WW1 and Mr Tranter gave the Square over to the cultivation of vegetables “on which good crops were raised”, according to Sir J Baddeley’s 1921 History of the 26 wards of London.    </p>
+            <p class="card-text">In 1925, there was a campaign to save the central Square’s a public open space and from development. The City of London Corporation acquired the Square under the Open Spaces Act 1906 around 1926 for £5000 - the funds being raised by public subscription.   The Square remains subject to the London Squares Preservation Act 1931. The Square was laid out as public gardens, surrounded by a privet hedge and on a slightly raise bank.  It was opened to the public on 15 October 1928, saved for the “use by local workers”.  Immediately after WW2 until the development of the Barbican Estate, the Square was leased out to the NCP for use as a carpark.</p>
+            <p class="card-text">In 1926, the Temperance Hotel on the southern side of the Square was demolished and the modern Bridgewater House was built as offices in 1926.  It was owned until post WW2 by J&K Connor Ltd, hat manufacturers. It, together with the J&P Coats building (see below), survived the 9 September 1940 Blitz when most of the neighbouring buildings were completely destroyed.  Today, Bridgewater House is the only pre-war building surviving on the Square.  It was later acquired by Prudential Assurance as an office development.     </p>
+              <p class="card-text">The Cripplegate Ward Boys School on the northern side of Bridgewater Square was demolished after its closure in 1904.  A six storey warehouse built which was leased by Moritz Wolfsky & Co for an emporium.  Moritz Wolfsky was a well-known leather travelling bag maker from Frankfurt.  Whilst parts of the warehouse survived the Blitz in 1940, it was also subsequently demolished and the area left as an open space.  </p>
+              <p class="card-text">Not much is known about the eastern side of the Square pre-1900, presumably as the small buildings as designed by Sir Christopher Wren continued to be used by various trades workshops and small factories (as described in Sir J Baddeley’s 1921 book).  However, a significant change occurred in 1900 when J&P Coats Ltd – cotton manufacturers, acquired this eastern edge of the Square and constructed their offices there.  The Cotton Manufacturers Association - an agent of J&P Coats Ltd - also had their offices in this building.  J&P Coats Ltd were listed on the London Stock Exchange in 1890 and by 1912, they were the third largest company in the world by way of market capitalisation.  Today, over a century on they remain the world's largest manufacturer and distributor of sewing thread and supplies and second largest zip-maker. </p>
+              <p class="card-text">The ‘Coats building’ subsequently became one of the first General Post Office (‘GPO’) training schools in the 1920s given the proximity of its location to the main GPO building on Aldersgate Street.  (The GPO was the state postal system and telecommunications carrier of the UK until 1969.)  Following the closure of the training school, P&O Shipping Company briefly had some of their offices in the ‘Coats building’ in the 1960s. </p>
+              <p class="card-text">Post WW2, Bridgewater Square came to be known as North Barbican.  Whilst a part of the Square was incorporated into the Barbican Estate which was being developed in the 1950s, the ‘Coats building‘ was not included in this due to the financial constraints faced by the City of London Corporation who could not afford to purchase it.   </p>
+              <p class="card-text">The late 1980s and 1990s saw further development of Bridgewater Square, primarily the conversion of office buildings into private residences, which are visible today.  During this period: </p>
+                <ul>
+                  <li>Planning permission was granted on 23 September 1985 for a nursery to be built on the Square, effectively converting an open lawn space into a built-up space.  The conversion work started in 1988 and the first tenant was City Child Nursery.></li>
+                  <li>In 1991, the open space on the north side of the Square (which had been incorporated into the Barbican Estate in the 1950s) was developed into Barbican Wildlife Garden (backing onto Fann St) with access for Barbican Estate residents only.  It was agreed that there would be a substantial fence around the plot. Since 2003, they also look after it on a volunteer basis under supervision of City Gardeners.  The Garden contains a diverse range of habitats that meet the City of London Corporation's biodiversity action plan to target certain species including stag beetle and house sparrow.  The Garden is regularly monitored and findings reported to the British Trust for Ornithology and onward to the Greenspace Information for Greater London.  The Garden is the immediate neighbour of the Cobalt Building.</li>
+                  <li>Bridgewater House on the south side of the Square was acquired by Brookcrest Properties Ltd from Prudential Assurance and converted entirely into flats in 1995. </li>
+                  <li>Similarly, redevelopment of the ‘Coats building’ on the east side of the Square was done.  It was sold to Crown Dilmun in 1985.  They demolished it and <strong>the Cobalt Building</strong> was built from 1995 to 1997 on the same footprint and in similar style to the ‘Coats building’.  Whilst it was initially designed as a commercial office building, it was subsequently decided to turn it into a residential building given the increase in demand from Far Eastern investors looking for prime City investments at that time and the City residential trend set by Bridgewater House (see above).  The first residents moved into the Cobalt Building 1997.  Today, the Cobalt Building – a hidden jewel in the City – is a sought after residential building for City workers and students.   </li>
+                  </ul>
+          </div>
+        </div>
+      </div>
+      <!-- timeline item 6 center dot -->
+      <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <h5 class="m-2">
+          <span class="badge badge-pill bg-light border">&nbsp;</span>
+        </h5>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      <!-- timeline item 6 image RIGHT -->
+      <div class="col-sm">
+        <div class="col-sm py-2">
+          <div class="card">
+            <div class="card-body">
+              <div class="float-right text-muted small">1900 AD and onwards
+              </div>
+              <h5><em><strong>Temperance Hotel - north side of Bridgewater Square</strong><em></h5>
+              <img 
+                src="assets/images/images_history/Tranter's Temperance Hotel 80829_hotel_sm.gif"
+                class="img-fluid" alt="100 AD Roman London Map" class="rounded bi me-2" width="500" height="300">
+                <h5><em><strong>Coats Building - east side of Bridgewater Square</strong><em></h5>
+              <img
+                src="assets/images/images_history/J&P Coats 1905.jpg"
+                class="img-fluid" alt="100 AD Roman London Map" class="rounded bi me-2" width="500" height="300">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/row-->
+
+  </div>
 
 
 
+  <!---END History-->
 
 
 
-
-
-
-
-
-
-<hr>
-
-<!---END History-->
-
-
-
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
-        </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+  </script>
 
 </body>
 
